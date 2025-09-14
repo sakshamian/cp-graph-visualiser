@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+/* Inputs section */
+.inputs {
+  flex: 0 0 auto; /* shrink to fit content */
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  border-bottom: 1px solid #333;
+}
+
+.inputs label {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.inputs input,
+.inputs textarea {
+  background: #2d2d2d;
+  border: 1px solid #444;
+  color: #eee;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.inputs textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.inputs button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #007acc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.inputs button:hover {
+  background: #005a9e;
+}
+
+body, .container, #graph {
+    background: #181818 !important;
+    color: #fff;
+}
+
+#graph {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background: #181818 !important;
+}

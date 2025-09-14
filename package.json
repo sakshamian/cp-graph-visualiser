@@ -1,0 +1,45 @@
+{
+  "name": "graph-visualizer",
+  "displayName": "Graph Visualizer",
+  "description": "Visualize graphs for competitive programming",
+  "version": "0.0.1",
+  "publisher": "yourname",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "graphVisualizer",
+          "title": "CP Graph Visualizer",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "graphVisualizer": [
+        {
+          "id": "graphVisualizer.view",
+          "name": "",
+          "type": "webview"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "typescript": "^5.0.0"
+  }
+}
