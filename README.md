@@ -13,8 +13,6 @@ A powerful Visual Studio Code extension designed for competitive programmers to 
 
 ## 📦 Installation
 
-## 📦 Installation
-
 You can install **CP Graph Visualizer** directly from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SakshamNegi.cp-graph-visualizer).
 
 1. Open **Visual Studio Code**.  
@@ -109,6 +107,7 @@ Found a bug or have a feature request? Please check our [Issues](https://github.
 2 3
 3 0
 ```
+<img width="1434" height="780" alt="img1-cycle" src="https://github.com/user-attachments/assets/58476cc3-c8eb-4355-88b6-ee2ff1b94dd7" />
 
 ### Example 2: Complete Graph K5
 ```
@@ -124,6 +123,8 @@ Found a bug or have a feature request? Please check our [Issues](https://github.
 2 4
 3 4
 ```
+<img width="1428" height="778" alt="img2-k5" src="https://github.com/user-attachments/assets/c5b2ba42-ad2d-4aa2-b0e3-72e6820fd7be" />
+
 
 ### Example 3: Tree Structure
 ```
@@ -135,6 +136,8 @@ Found a bug or have a feature request? Please check our [Issues](https://github.
 2 5
 2 6
 ```
+<img width="1434" height="782" alt="img3-tree" src="https://github.com/user-attachments/assets/4e4a3638-a6a3-4f7e-8243-94a0a55528b8" />
+
 
 ## 🏆 Acknowledgments
 
