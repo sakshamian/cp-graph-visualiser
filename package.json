@@ -3,10 +3,10 @@
   "displayName": "CP Graph Visualizer",
   "description": "Visualize graphs for competitive programming",
   "icon": "media/logo.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "SakshamNegi",
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.74.0"
   },
   "repository": {
     "type": "git",
@@ -48,7 +48,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.103.0",
+    "@types/vscode": "^1.74.0",
     "typescript": "^5.0.0"
   }
 }
