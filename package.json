@@ -1,14 +1,23 @@
 {
-  "name": "graph-visualizer",
-  "displayName": "Graph Visualizer",
+  "name": "cp-graph-visualizer",
+  "displayName": "CP Graph Visualizer",
   "description": "Visualize graphs for competitive programming",
-  "version": "0.0.1",
-  "publisher": "yourname",
+  "icon": "media/logo.png",
+  "version": "0.0.2",
+  "publisher": "SakshamNegi",
   "engines": {
     "vscode": "^1.103.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sakshamian/cp-graph-visualiser"
+  },
+  "categories": [
+    "Programming Languages",
+    "Visualization"
+  ],
   "activationEvents": [
-    "*"
+    "onView:graphVisualizerView"
   ],
   "main": "./out/extension.js",
   "contributes": {

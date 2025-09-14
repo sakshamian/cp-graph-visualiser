@@ -1,6 +1,6 @@
 # Graph Visualizer - VS Code Extension
 
-A powerful Visual Studio Code extension designed for competitive programmers to visualize and test graph problems. Transform your nodes and edges input into beautiful, interactive graph visualizations with zero-indexed adjacency representation.
+A powerful Visual Studio Code extension designed for competitive programmers to visualize and test graph problems. Transform your nodes and edges input into beautiful, interactive graph visualizations with 0-indexed adjacency representation. No need of switching to external websites or drawing on paper while coding graph problems.
 
 ## 🌟 Features
 
@@ -13,8 +13,14 @@ A powerful Visual Studio Code extension designed for competitive programmers to 
 
 ## 📦 Installation
 
+## 📦 Installation
 
-## 🚀 Usage
+You can install **CP Graph Visualizer** directly from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SakshamNegi.cp-graph-visualizer).
+
+1. Open **Visual Studio Code**.  
+2. Go to the **Extensions view** by clicking the square icon in the left Activity Bar or pressing `Ctrl+Shift+X`/`Cmd+Shift+X`.
+3. In the search bar, type **cp-graph-visualizer**.  
+4. Click **Install** on the extension published by `SakshamNegi`.  
 
 
 ## 📋 Requirements
@@ -25,13 +31,12 @@ A powerful Visual Studio Code extension designed for competitive programmers to 
 ## 🗺️ Roadmap
 
 - [ ] **Directed Graph Support**: Add support for directed graphs with arrow indicators
+- [ ] **Custom Label Support**: Support for 1-indexed graphs and custom labels graph
 - [ ] **Weighted Edges**: Support for edge weights visualization
-- [ ] **Algorithm Visualization**: Step-by-step algorithm execution (DFS, BFS, Dijkstra)
 - [ ] **Multiple Graph Formats**: Support for adjacency matrix input
 - [ ] **Graph Templates**: Pre-built graph templates for common problems
 - [ ] **Performance Metrics**: Display graph properties (diameter, density, etc.)
 - [ ] **Theme Support**: Dark/light theme compatibility
-- [ ] **Export Formats**: Support for multiple export formats (SVG, PNG, JSON)
 
 ## 🤝 Contributing
 
@@ -84,7 +89,7 @@ npm run test
 
 ## 🐛 Issues and Bug Reports
 
-Found a bug or have a feature request? Please check our [Issues](https://github.com/yourusername/graph-visualizer-vscode/issues) page first to see if it's already been reported.
+Found a bug or have a feature request? Please check our [Issues](https://github.com/sakshamian/cp-graph-visualiser/issues) page first to see if it's already been reported.
 
 **When reporting bugs, please include:**
 - VS Code version
@@ -99,7 +104,6 @@ Found a bug or have a feature request? Please check our [Issues](https://github.
 ### Example 1: Simple Cycle
 ```
 4
-4
 0 1
 1 2
 2 3
@@ -109,7 +113,6 @@ Found a bug or have a feature request? Please check our [Issues](https://github.
 ### Example 2: Complete Graph K5
 ```
 5
-10
 0 1
 0 2
 0 3
@@ -125,7 +128,6 @@ Found a bug or have a feature request? Please check our [Issues](https://github.
 ### Example 3: Tree Structure
 ```
 7
-6
 0 1
 0 2
 1 3
@@ -138,37 +140,10 @@ Found a bug or have a feature request? Please check our [Issues](https://github.
 
 - Inspired by the competitive programming community
 - Built with ❤️ for developers who love graphs
-- Special thanks to all contributors and beta testers
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2024 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
 
 ## 🌟 Star this project if you find it helpful!
 
