@@ -42,8 +42,8 @@ We welcome contributions! Here's how you can help:
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/yourusername/graph-visualizer-vscode.git
-   cd graph-visualizer-vscode
+   git clone https://github.com/sakshamnnegi/graph-visualiser-vscode.git
+   cd graph-visualiser-vscode
    ```
 
 2. **Install Dependencies**
@@ -70,7 +70,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/graph-visualizer-vscode.git
+git clone https://github.com/sakshamnnegi/graph-visualiser-vscode.git
 
 # Install dependencies
 npm install
@@ -87,7 +87,7 @@ npm run test
 
 ## 🐛 Issues and Bug Reports
 
-Found a bug or have a feature request? Please check our [Issues](https://github.com/sakshamian/cp-graph-visualiser/issues) page first to see if it's already been reported.
+Found a bug or have a feature request? Please check our [Issues](https://github.com/sakshamnnegi/cp-graph-visualiser/issues) page first to see if it's already been reported.
 
 **When reporting bugs, please include:**
 - VS Code version
