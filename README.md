@@ -7,7 +7,7 @@ A powerful Visual Studio Code extension designed for competitive programmers to 
 - **Easy Graph Input**: Simple node and edge input format
 - **Zero-Indexed Graphs**: Generates 0-indexed adjacency representation perfect for competitive programming
 - **Visual Graph Display**: Interactive graph visualization within VS Code
-- **Undirected Graph Support**: Currently supports undirected graphs with planned support for directed graphs
+- **Graph Support**: Supports both undirected and directed graphs
 - **Competitive Programming Focused**: Designed with competitive programmers in mind
 - **Lightweight**: Minimal performance impact on your VS Code environment
 
@@ -25,16 +25,6 @@ You can install **CP Graph Visualizer** directly from the [Visual Studio Code Ma
 
 - Visual Studio Code version 1.74.0 or higher
 - No additional dependencies required
-
-## 🗺️ Roadmap
-
-- [ ] **Directed Graph Support**: Add support for directed graphs with arrow indicators
-- [ ] **Custom Label Support**: Support for 1-indexed graphs and custom labels graph
-- [ ] **Weighted Edges**: Support for edge weights visualization
-- [ ] **Multiple Graph Formats**: Support for adjacency matrix input
-- [ ] **Graph Templates**: Pre-built graph templates for common problems
-- [ ] **Performance Metrics**: Display graph properties (diameter, density, etc.)
-- [ ] **Theme Support**: Dark/light theme compatibility
 
 ## 🤝 Contributing
 
