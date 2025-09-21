@@ -2,8 +2,6 @@
 
 All notable changes to the "cp-graph-visualiser" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## [1.0.1] - 2025-09-21
+### Changed
+- Added support for directed graphs

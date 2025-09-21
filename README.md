@@ -42,8 +42,8 @@ We welcome contributions! Here's how you can help:
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/sakshamnnegi/graph-visualiser-vscode.git
-   cd graph-visualiser-vscode
+   git clone https://github.com/sakshamnnegi/cp-graph-visualiser.git
+   cd cp-graph-visualiser
    ```
 
 2. **Install Dependencies**
@@ -70,7 +70,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone the repository
-git clone https://github.com/sakshamnnegi/graph-visualiser-vscode.git
+git clone https://github.com/sakshamnnegi/gcp-graph-visualiser.git
 
 # Install dependencies
 npm install

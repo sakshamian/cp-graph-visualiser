@@ -55,6 +55,26 @@ html, body {
   background: #005a9e;
 }
 
+.radio-group {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center; 
+  gap: 2px;
+  cursor: pointer;
+}
+
+.radio-label input[type="radio"] {
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  outline: none;
+}
+
 body, .container, #graph {
     background: #181818 !important;
     color: #fff;

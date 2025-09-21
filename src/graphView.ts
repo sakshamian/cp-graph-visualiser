@@ -50,6 +50,16 @@ export class GraphViewProvider implements vscode.WebviewViewProvider {
                     <input type="number" id="nodes" placeholder="e.g. 3" />
                     <label>Edges:</label>
                     <textarea id="edges" placeholder="e.g. 0 1"></textarea>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="graphType" value="undirected" checked />
+                            Undirected
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="graphType" value="directed" />
+                            Directed
+                        </label>
+                    </div>
                     <button id="drawBtn">Draw Graph</button>
                 </div>
                 <div id="graph"></div>
